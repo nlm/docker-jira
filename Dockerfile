@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-MAINTAINER Nicolas Limage <docker@xephon.org>
+MAINTAINER Nicolas Limage <github@xephon.org>
 RUN apt-get -q update
 RUN apt-get -y install wget
 WORKDIR /opt
